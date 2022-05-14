@@ -73,7 +73,7 @@
 	}
 /**
  * \fn float interes(int)
- * \brief Aplica un descuento del 25% al precio ingresado
+ * \brief Aplica un interes del 25% al precio ingresado
  * \param primerNumero
  * \return
  */
