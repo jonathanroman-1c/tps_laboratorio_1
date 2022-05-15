@@ -76,7 +76,7 @@ int main(void) {
 						printf("\nERROR,ID no encontrado\n");
 						break;
 					case 0:
-						printf("\ELIMINACION REALIZADA\n");
+						printf("\nELIMINACION REALIZADA\n");
 						break;
 					}
 				}
