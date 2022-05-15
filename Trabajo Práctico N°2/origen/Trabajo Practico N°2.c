@@ -14,7 +14,7 @@
 #include "biblioteca_arrayPassenger.h"
 #include "biblioteca.h"
 
-#define tam 200
+#define tam 2000
 int main(void) {
 	setbuf(stdout,NULL);
 	Passenger list_passenger[tam];//={{1,"jonathan","roman",23.2,"alpha12",12,OCUPADO},{2,"lucas","castillo",23.2,"delta",12,OCUPADO},{3,"teodoro","ayala",23.2,"tetra23",12,OCUPADO},{4,"cristian","romero",2.2,"gama",12,OCUPADO}};
@@ -84,13 +84,13 @@ int main(void) {
 				case 4:
 					if(bandera == 0){
 						imprimir = get_number("\nIMPRIMIR:\n"
-											"\n1.Listado de los pasajeros ordenados alfabéticamente por Apellido y Tipo de pasajero"
-											"\n2.Total y promedio de los precios de los pasajes, y cuántos pasajeros superan el precio promedio. "
-											"\n3.Listado de los pasajeros por Código de vuelo y estados de vuelos ‘ACTIVO’");
+											"\n1.Listado de los pasajeros ordenados alfabÃ©ticamente por Apellido y Tipo de pasajero"
+											"\n2.Total y promedio de los precios de los pasajes, y cuÃ¡ntos pasajeros superan el precio promedio. "
+											"\n3.Listado de los pasajeros por CÃ³digo de vuelo y estados de vuelos â€˜ACTIVOâ€™");
 						imprimir = validacioNumerica(imprimir, 3, 1, "\nERROR,OPCION INCORRECTA, por favor elija una opcion correcta\n"
-								"\n1.Listado de los pasajeros ordenados alfabéticamente por Apellido y Tipo de pasajero"
-								"\n2.Total y promedio de los precios de los pasajes, y cuántos pasajeros superan el precio promedio. "
-								"\n3.Listado de los pasajeros por Código de vuelo y estados de vuelos ‘ACTIVO’");
+								"\n1.Listado de los pasajeros ordenados alfabÃ©ticamente por Apellido y Tipo de pasajero"
+								"\n2.Total y promedio de los precios de los pasajes, y cuÃ¡ntos pasajeros superan el precio promedio. "
+								"\n3.Listado de los pasajeros por CÃ³digo de vuelo y estados de vuelos â€˜ACTIVOâ€™");
 						switch(imprimir){
 						case 1:
 							imprimir_opcion = get_number("\n1.ASCENDENTE"
